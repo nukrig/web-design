@@ -6,12 +6,16 @@
     background-position: center;
 }
 .navbar{
+    width: 100%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
-.navbar ul{
-    display: flex;
-    margin-top: 50px;
+.navbar ul li{
+margin: 0 20px;
+display: inline-block;
+position: relative;
+margin-top: 50px;
 }
 .navbar ul li a{
     margin-right: 30px;
@@ -19,9 +23,6 @@
     font-weight: bold;
     font-family: cursive;
     text-transform: uppercase;
-}
-.navbar ul li{
-    position: relative;
 }
 .navbar ul li::after{
     content: '';
